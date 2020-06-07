@@ -1,4 +1,4 @@
-{ stdenv, buildGoPackage, fetchFromGitHub }:
+with import <nixpkgs>{};
 
 buildGoPackage rec {
   version = "git";
